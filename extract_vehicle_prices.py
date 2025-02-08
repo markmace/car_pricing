@@ -188,8 +188,6 @@ if __name__ == "__main__":
 
     print(df.drop(columns='mileage').sort_values(by='price').to_string(index=False))
 
-    assert False
-
     # Import visualization libraries
     import seaborn as sns
     import matplotlib.pyplot as plt
