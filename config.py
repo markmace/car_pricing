@@ -29,6 +29,6 @@ URL_TEMPLATE = "https://www.cars.com/shopping/results/?dealer_id=&include_shippa
 
 # Data storage configuration
 STORAGE_CONFIG = {
-    'base_dir': '/Users/mark/car_truth/data',
+    'base_dir': '/Users/mark/car_pricing/data',
     'max_age_days': 1  # Maximum age of data before refreshing
 } 
